@@ -1,0 +1,30 @@
+_id: req_91ed583c07834c28ab5563229071d9ac
+type: Request
+parentId: fld_ecec5e8ed9ac48f386eb970d31adbafa
+modified: 1654887772915
+created: 1654887709432
+url: https://restful-booker.herokuapp.com/auth
+name: CreateToken
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "username" : "admin",
+        "password" : "password123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_56af71d3152745daa4186a1f3b6ee6a9
+authentication: {}
+metaSortKey: -1646413749633
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

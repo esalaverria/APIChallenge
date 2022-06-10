@@ -1,0 +1,37 @@
+_id: req_9bc32e62d74349dd9824cff2e00299b5
+type: Request
+parentId: fld_ecec5e8ed9ac48f386eb970d31adbafa
+modified: 1654887451837
+created: 1654887266329
+url: https://restful-booker.herokuapp.com/booking
+name: CreateBooking
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "firstname" : "Jim",
+        "lastname" : "Brown",
+        "totalprice" : 111,
+        "depositpaid" : true,
+        "bookingdates" : {
+            "checkin" : "2018-01-01",
+            "checkout" : "2019-01-01"
+        },
+        "additionalneeds" : "Breakfast"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_eeae49f122134e0eb8df4ce653418c2d
+authentication: {}
+metaSortKey: -1646413749483
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
